@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KFC</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png">
 </head>
 <body>
     <header>
-    <h2>KFC Job application </h2>
-    <img alt="KFC_logo" src="assest/download.png">
+    <h1>KFC Job application </h1>
+    <img alt="KFC_logo" src="assets/download.png">
     </header>
     <h3 class="hiringNowtext">We are hiring now!</h3>
     <form class="job-form">
@@ -35,13 +36,59 @@
     </div>
     <div>
      <label>higher education:</label>
-     
+     <select>
+        <option>Grade-12</option>
+        <option>high school diploma</option>
+        <option>High school graduate</option>
+        <option>College</option>
+        <option>Associate degree</option>
+        <option>Bachelor's degree</option>
+        <option>Master's degree</option>
+     </select>
     </div>
-     
+
+    <div>
+      <label>Position:</label>
+      <select>
+        <option>Restaurant General Manager</option>
+        <option>Assistant Manager </option>
+        <option>Team Leader</option>
+        <option>Supervisor</option>
+        <option>Cashier</option>
+        <option>Crew Member</option>
+        <option>Cook / Kitchen Staff</option>
+        <option>Customer Service Associate</option>
+      </select>
+    </div>
+    <div>
+    <label>Are you willing to travel or work in another city?</label><br>
+
+    <input type="radio" id="yes" name="travel" value="Yes">
+    <span for="yes">Yes</span>
+
+    <input type="radio" id="no" name="travel" value="No">
+    <span for="no">No</span>
+</div>
+  <div>
+    <label>Upload your CV form</label>
+    <input type="file" required />
+  </div>
+
+  <button>Submit</button>
    
     </form>
     <footer>
-
+        <h4>"Original Careers, Original People. Bring it."</h4>
+        <div class="footerparent">
+        <h1>CAREERS At KFC</h1>
+        <div class="footerContainer">
+            <p>COOKIE POLICY</p>
+            <p>Privacy Policy</p>
+            <p>Term of Use</p>
+        </div>
+        </div>
+        <p>KFC Corporation is an Equal Opportunity Employer. Applicants for all KFC Corporation job openings are welcome and will be considered without regard to race, age, national origin, color, religion, disability, military status, or any other basis protected by applicable federal, state, or local law. An offer of employment from KFC Corporation will be contingent upon a satisfactory background check and proof of employment eligibility. Restaurant-specific job postings are available at both KFC Corporate and franchisee operated locations. Those applying for a position with a franchisee or licensee of KFC Corporation are not applying to work at KFC Corporation or any of its affiliates. Franchisees and licensees are independent business owners and employers who are responsible for their own operations and employment practices, including setting their own wage and benefit programs.</p>
+        <p class="copyrighttext">© Copyright KFC Corporation 2026. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
